@@ -1,0 +1,114 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$accent-color: #e74c3c;
+$text-color: #333;
+
+// Estilos generales
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; // Color de fondo
+}
+
+.navbar {
+    margin-bottom: 1.5rem;
+    background-color: $primary-color;
+    .navbar-brand {
+        color: white;
+        font-weight: bold;
+        .logo {
+            width: 50px;
+            margin-right: 10px;
+        }
+    }
+    .nav-link {
+        color: white;
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}
+
+.hero {
+    background: linear-gradient(to right, $primary-color, $secondary-color);
+    color: white;
+    padding: 50px 0;
+    h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        background-color: $accent-color;
+        border: none;
+        &:hover {
+            background-color: darken($accent-color, 10%);
+        }
+    }
+}
+
+.container {
+    h2 {
+        color: $primary-color;
+        margin-bottom: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.vehicle-info {
+    h3 {
+        font-size: 1.8rem;
+        color: $secondary-color;
+    }
+    p {
+        margin: 0.5rem 0;
+    }
+}
+
+.vehicle-navigation {
+    button {
+        margin: 0 5px;
+    }
+}
+
+.social-links {
+    margin-top: 1em;
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: $secondary-color; // Color de fondo
+        color: white; // Color del icono
+        text-align: center;
+        line-height: 40px; // Centrar el icono verticalmente
+        transition: background-color 0.3s;
+        text-decoration: none; // Quitar subrayado
+
+        &:hover {
+            background-color: $primary-color; // Color de fondo al pasar el ratón
+        }
+    }
+}
+
+// Estilos específicos para cada red social
+.facebook {
+    background-color: #3b5998; // Color de fondo de Facebook
+}
+
+.twitter {
+    background-color: #1da1f2; // Color de fondo de Twitter
+}
+
+.instagram {
+    background-color: #e1306c; // Color de fondo de Instagram
+}
+
+.linkedin {
+    background-color: #0077b5; // Color de fondo de LinkedIn
+}
+
+// Estilo para los iconos (requiere Font Awesome)
+.social-icon i {
+    font-size: 20px; // Tamaño del icono
+}

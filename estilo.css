@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 1.5rem;
+  background-color: #3498db;
+}
+.navbar .navbar-brand {
+  color: blue;
+  font-weight: bold;
+}
+.navbar .navbar-brand .logo {
+  width: 50px;
+  margin-right: 10px;
+}
+.navbar .nav-link {
+  color: white;
+}
+.navbar .nav-link:hover {
+  color: #e74c3c;
+}
+
+.hero {
+  background: linear-gradient(to right, #3498db, #2ecc71);
+  color: white;
+  padding: 50px 0;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero .btn-primary {
+  background-color: #e74c3c;
+  border: none;
+}
+.hero .btn-primary:hover {
+  background-color: rgb(213.698630137, 43.8356164384, 26.301369863);
+}
+
+.container h2 {
+  color: #3498db;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.vehicle-info h3 {
+  font-size: 1.8rem;
+  color: #2ecc71;
+}
+.vehicle-info p {
+  margin: 0.5rem 0;
+}
+
+.vehicle-navigation button {
+  margin: 0 5px;
+}
+
+.social-links {
+  margin-top: 1em;
+}
+.social-links .social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+.social-links .social-icon:hover {
+  background-color: #3498db;
+}
+
+.facebook {
+  background-color: #6888ce;
+}
+
+.twitter {
+  background-color: #35559b;
+}
+
+.instagram {
+  background-color: #d11b57;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.social-icon i {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
